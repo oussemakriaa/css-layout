@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+#logo {
+  width: 268px;
+  height: 68px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+  cursor: pointer;
+}
+.menu-item {
+  margin-right: 20px;
+}
+.drop-menu {
+  display: none;
+  background-color: white;
+  width:200px;
+  height:200px;
+  margin-left: -100px;
+ padding-right: 20px;
+ line-height: 40px;
+ box-shadow: 0px 0px 10px #ddd;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: #ababab;
+}
+.drop-menu-item {
+  list-style: none;
+}
+.menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.drop-menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.logo1{
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 34px; 
+  Font-weight: 300px;
+  Line-height: 44.2px ;
+  color: rgb(0, 179, 155);
+  text-align: center;
+  padding-top: 100px;
+}
+.second-section{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1015px;
+  margin: 0 auto;
+  
+}
+.second-section p {
+  font: 400px 16px roboto,arial,sans-serif;
+  Line-height: 28px;
+  color: rgb(116, 116, 116);
+  text-align: justify;
+  padding: 10px;
+}
+.third-section{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 180px;
+
+}
+.patients{
+  background-color:#00CCB1 ;
+  
+}
+
+.doctors{
+  background-color:#3D83DF;
+}
+.clinics{
+  background-color:#1B2734 ;
+}
+.third-section div{
+  padding: 30px;
+  margin:20px 10px;
+  border-radius: 10px;
+  width: 312px;
+  height: 345px;
+  color:white;
+  font-family: "work sans",Arial, sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+
+
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1015px;
+  margin: 0 auto;
+}
+.items {
+  margin: 10px;
+}
+
+.btn {
+  background: transparent;
+  border-radius: 4px;
+  float: right;
+  font-weight: bold;
+  font-size: 10px;
+  width: 110px;
+  height: 32px;
+  background-color: #3d83df;
+  color: white;
+  border-color: white;
+  border-style: solid;
+}
+.btn:hover {
+  background-color: #3d93df;
+}
+
+.under-img {
+  font-family: Robto, Arial, sans-serif;
+  color: #747474;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 20px;
+}
+
+.items:hover {
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+}
